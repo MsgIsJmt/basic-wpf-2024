@@ -47,7 +47,7 @@ namespace ex02_wpf_controls
             else TxtSampleText.FontStyle = FontStyles.Normal;
 
             if (ChkBold.IsChecked == true) TxtSampleText.FontWeight = FontWeights.Bold;
-            else TxtSampleText.FontWeights = FontWeights.Normal;
+            else TxtSampleText.FontWeight = FontWeights.Normal;
         }
         private void ChkBold_Checked(object sender, RoutedEventArgs e)
         {

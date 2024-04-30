@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ex04_wpf_bikeshop
 {
     /// <summary>
-    /// ContactPage.xaml에 대한 상호 작용 논리
+    /// ProductPage.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class ContactPage : Page
+    public partial class ProductPage : Page
     {
-        public ContactPage()
+        public ProductPage()
         {
             InitializeComponent();
         }

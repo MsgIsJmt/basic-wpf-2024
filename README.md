@@ -22,3 +22,9 @@ IoT 개발자 WPF 학습 리포지토리
         3. Canwas - 미술에서 캔버스와 유사
         4. DockPanel - 컨트롤을 방향에 따라서 도킹시키는 레이아웃
         5. Margin - 여백기능, 앵커링
+
+## 2일차
+- WPF 기본학습
+    - 데이터바인딩 - 데이터소스(DB, 엑셀, txt, 클라우드에 보관된 데이터원본)에 데이터를 쉽게 가져다쓰기 위해 데이터 핸들링방법
+        - xaml : {Binding Path=속성, ElementName=객체, Mode=(OneWay|TwoWay), StringFormat={}{0:#,#}}
+        - dataContext : 데이터를 담아서 전달하는 이름
