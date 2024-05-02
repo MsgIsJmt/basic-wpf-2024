@@ -51,7 +51,7 @@ IoT 개발자 WPF 학습 리포지토리
         - View : 화면, 순수 xaml로만 구성
         - ViewModel : 뷰에 대한 메서드, 액션, INotifyProperthChanged를 구현
 
-        ![MVVM패턴]()
+        ![MVVM패턴](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf001.png)
 
     - 권장 구현방법
         - ViewModel  생성, 알림 속성 구현, 
