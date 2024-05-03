@@ -245,7 +245,7 @@ namespace ex07_EmployeeMngApp.ViewModels
                 }
 
                 GetEmployees();
-                NewEmployee();
+                NewEmployee();  // 입력값 초기화
             }
         }
 
