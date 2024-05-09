@@ -110,9 +110,9 @@ IoT 개발자 WPF 학습 리포지토리
 - MahApps.Metro
     - Metro(Modern UI) 디자인 접목
     
-    ![실행화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf003.png/)
+    ![실행화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf003.png)
 
-    ![저장화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf004.png/)
+    ![저장화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf004.png)
 
 - Movie API 연동 앱, MovieFinder 2024
     - 좋아하는 영화 즐겨찾기 앱
