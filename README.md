@@ -104,7 +104,7 @@ IoT 개발자 WPF 학습 리포지토리
 
 
 
-    ![실행화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf002.png/)
+            ![실행화면](https://raw.githubusercontent.com/MsgIsJmt/basic-wpf-2024/main/img/wpf002.png)
 
 ## 5일차
 - MahApps.Metro
