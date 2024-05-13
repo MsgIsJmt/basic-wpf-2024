@@ -154,3 +154,8 @@ IoT 개발자 WPF 학습 리포지토리
     - 5월 13일 개인 프로젝트 참고소스
 
 ## 8일차
+
+
+
+https://github.com/MsgIsJmt/basic-wpf-2024/assets/158007442/1903fb90-a9dd-4eaf-b651-9a3460693e44
+
