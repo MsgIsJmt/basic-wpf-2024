@@ -1,0 +1,31 @@
+﻿<Controls:MetroWindow x:Class="RestaurantMap.MainWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      Title="Restaurant Map" Height="450" Width="800"
+                      Loaded="MetroWindow_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- 맛집 목록을 표시할 DataGrid -->
+        <DataGrid x:Name="dataGridView" Grid.Row="0" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="맛집 이름" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="주소" Binding="{Binding ADDR1}" />
+                <DataGridTextColumn Header="대표메뉴" Binding="{Binding 대표메뉴}" />
+                <DataGridTextColumn Header="메뉴소개" Binding="{Binding 메뉴소개}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- 지도를 표시할 WebBrowser -->
+        <WebBrowser x:Name="webBrowser" Grid.Row="0" Visibility="Hidden" Margin="10"/>
+
+        <!-- 맛집 선택 버튼 -->
+        <Button Grid.Row="1" Content="지도 보기" Click="ShowMap_Click" HorizontalAlignment="Center" Margin="10" />
+    </Grid>
+</Controls:MetroWindow>

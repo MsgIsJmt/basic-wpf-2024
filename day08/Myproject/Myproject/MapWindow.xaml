@@ -1,0 +1,9 @@
+﻿<Window x:Class="RestaurantMap.MapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cefSharp="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        Title="Map Window" Height="450" Width="800">
+    <Grid>
+        <cefSharp:ChromiumWebBrowser x:Name="BrsLoc" Address="https://map.google.com" />
+    </Grid>
+</Window>
